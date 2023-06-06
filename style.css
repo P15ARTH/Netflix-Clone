@@ -1,0 +1,426 @@
+/*---------------------------------------- Netflix clone Css -----------------------*/
+
+/*---------------------------------------- Header Start ----------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background-color: black;
+}
+
+.header
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/header-image.jpg);
+    background-repeat: no-repeat;
+}
+
+img
+{
+    margin-top: 20px;
+    margin-left:200px ;
+}
+
+.netflix-logo
+{
+    width: 9.25rem;
+    height: 2.5rem;
+}
+
+.right
+{
+    display: flex;
+    justify-content: center;
+    float: right;
+    position: absolute;
+    right: 50px;
+    top: 25px;
+    
+}
+
+.language
+{
+    margin-right: 25px;
+    height:30px;
+    width: 120px;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+button
+{
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.sign-in
+{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 80px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    text-align: center;
+    padding: 12px;
+}
+
+.sign-in:hover
+{
+   opacity: .5; 
+}
+
+.container
+{   
+    align-items: center;
+    text-align: center;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+h1
+{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h3
+{
+    padding: 25px;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+p
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.email
+{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+
+input
+{
+    width: 400px;
+    height: 55px;
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    border-radius:5px;
+    border: 1px solid white;
+}
+
+::placeholder
+{
+    font-size: 15px;
+    padding: 10px;
+    top: 5px;
+    left: 17px;
+
+}
+
+input[type=email]
+{
+    padding:15px;
+    font-size: 18px;
+}
+
+button
+{
+    height: 58px;
+    width: 190px;
+    margin-left: 10px;
+}
+
+.get-started
+{
+    background-color: red;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    padding: 12px;
+}
+
+.get-started:hover
+{
+    opacity: 0.5;
+}
+
+.fa-angle-right
+{
+    font-size: 30px;
+}
+
+/*------------------------------------ End of Header ------------------------------------*/
+
+/* ------------------------------------Features Start --------------------------------- */
+
+hr
+{   
+    border: 3px solid gray;
+}
+
+.row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 45px 45px 50px;
+    
+}
+
+.text-col
+{
+    margin-left: 40px;
+    padding: 80px;
+    margin-bottom: 20px;
+}
+
+.img-col-1
+{
+    margin-right: 50px;
+    margin-bottom: 40px;
+}
+
+.img-col-1 .tv
+{
+    display: block;
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    background-image: url(images/animation.gif);
+}
+
+
+.img-col-2
+{
+    margin-left: 110px;
+    margin-bottom: 50px;
+}
+
+.img-col-2 .mobile 
+{
+    display: block;
+    width: 500px;
+    height: 400px;
+    margin: auto;
+}
+
+.img-col-3
+{
+    margin-right: 150px;
+    margin-bottom: 50px;
+}
+
+.img-col-3 .all-device 
+{
+    display: block;
+    width: 550px;
+    height: 420px;
+    margin: auto;
+    background-image:url(images/tv.png) ;
+}
+
+.img-col-4
+{
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.img-col-4 .profile 
+{
+    display: block;
+    width: 550px;
+    height: 420px;
+    margin: auto;
+    background-image: url(images/animation.gif);
+}
+
+.features h2
+{
+    margin-bottom: 20px;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.benefit
+{
+    font-size: 23px;
+    font-weight: 400;
+}
+
+/*------------------------------------ end of features css ------------------------------------------- */
+
+
+/*------------------------------------- Start of FAQs --------------------------------------------------------------------------*/
+
+.faq
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+button
+{
+    margin-bottom: 15px;
+}
+
+.accordion {
+    margin-left: 190px;
+    background-color: rgba(45, 45, 45);
+    color: white;
+    cursor: pointer;
+    padding: 25px;
+    width: 80%;
+    height: 80px;
+    border: none;
+    border-radius: 4px;
+    text-align: left;
+    outline: none;
+    font-size: 25px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion:hover {
+    background-color: gray; 
+  }
+  
+  .panel {
+    padding: 20px;
+    margin-top: 8px;
+    margin-left: 190px;
+    margin-bottom: 10px;
+    width: 80%;
+    display: none;
+    background-color: rgba(45, 45, 45);;
+    overflow: hidden;
+    transition:0.5s;
+  }
+
+span
+{
+    font-size: 50px;
+}
+
+.again
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 23px;
+    margin-top: 35px;
+    
+}
+ 
+.small
+{
+    margin-top: -10px;
+    margin-left: 120px;
+}
+
+/*-------------------------------- End of FAQ CSS ----------------------------------------------------*/
+  
+/*-------------------------------- Footer Start ------------------------------------------------------*/
+.footer
+{
+    margin-top: 90px;
+    margin-left: 90px;  
+}
+
+ul
+{
+    list-style: none;
+    padding: 18px;
+}
+ul a
+{
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+.language-small
+{
+    margin-left: 25px;
+    height:30px;
+    width: 100px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: transparent;
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+h5
+{
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 9px;
+}
+
+h4
+{
+   margin-left:25px;
+}
+
+h4 a 
+{
+     color: white;
+}
+.center-small
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-220px;
+    margin-right: 350px;
+}
+
+.right-small
+{
+    float: right;
+    margin-top:-220px;
+    margin-right: 380px;
+}
+
+h3
+{
+    text-align: center;
+}
+
+/*------------------------------End of footer--------------------------------------------------*/
+
